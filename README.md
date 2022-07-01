@@ -8,7 +8,7 @@ As of version 5.0.0-beta, Hermeris has an additional `/cmd` feature as an altern
 
 ## Preface
 Thank you for selecting Hermeris as your bot. Hermeris provides special commands for educational and computational purposes, such as solving mathematical equations, providing stock market information, encryption and decryption, and other such functions. As mentioned before, Hermeris is powered by the powerful Wolfram|Alpha API besides the NASA Open API and countless other powerful APIs which provide the backend for most of its commands. The Wolfram|Alpha API provides most services that offer the perfect replacement for innumerable other possible commands.
-Hermeris uses the py-enigma library to provide a virtual Enigma Machine for text manipulation. Please refer to the manual entry on the /enigma command for help with the syntax.
+Hermeris uses the py-enigma library to provide a virtual Enigma Machine for text manipulation. Please refer to the manual entry on the <a href="#enigma">/enigma</a> command for help with the syntax.
 
 ## Getting Started
 ***Refer to the following steps to add Hermeris to your server:***
@@ -271,6 +271,7 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `pos` - The conventional position of the character in the string.
 <hr>
 
+<element id="enigma">
 ### `/enigma`
 #### Usage:
    `/anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>`

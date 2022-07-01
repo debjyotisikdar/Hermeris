@@ -290,21 +290,41 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 ```
 ["AD","AR","AS", "AT", "AU", "AX", "AZ", "BD", "BE", "BG", "BM", "BR", "BY", "CA", "CH", "CL", "CO", "CR", "CZ", "DE", "DK", "DO", "DZ", "EE", "ES", "FI", "FM", "FO", "FR", "GB", "GF", "GG", "GL", "GP", "GT", "GU", "HR", "HU", "IE", "IM", "IN", "IS", "IT", "JE", "JP", "KR", "LI", "LK", "LT", "LU", "LV", "MC", "MD", "MH", "MK", "MP", "MQ", "MT", "MW", "MX", "MY", "NC", "NL", "NO", "NZ", "PH", "PK", "PL", "PM", "PR", "PT", "PW", "RE", "RO", "RS", "RU", "SE", "SG", "SI", "SJ", "SK", "SM", "TH", "TR", "UA", "US", "UY", "VA", "VI", "WF", "YT", "ZA"]
 ```
+<hr>
 
+### `/apod`
+#### Usage:
+   `/apod`
+#### Purpose:
+   Returns NASA's Astronomy Picture of the Day". This command will fail if there is an issue with the NASA Open APIs, or if the returned media is neither an image nor a video.
+<hr>
+
+### `/neows`
+#### Usage:
+   `/neows [<count>]`
+#### Optional Parameters:
+   * `int` count - The number of results. (Set to 5 by default)
+#### Purpose:
+   Returns results from the NeoWs near-earth asteroid feed. This command will fail if there is an issue with the NASA Open APIs, or if the returned data is too large to fit inside an embed message.
+<hr>
+
+### /rover
+#### Usage:
+   `/rover <rover> <sol> [<camera>]`
+#### Compulsory Parameters:
+   * `string` rover - The name of the rover whose images are to be retrieved (Spirit/ Opportunity/Curiosity)
+   * `string` sol - The sol date for the picture
+#### Compulsory Parameters:
+   * `string` camera - The rover camera whose image is to be retrieved. See the next page for the list of valid names (refer to the abbreviations).
+#### Purpose: 
+   Get images captured by the Spirit, Opportunity, and Curiosity Mars Rovers. The table given below contains all the supported camera names for the Mars rover imagery commands:
+   
 <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th> 
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td> 
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td> 
-    <td>Mexico</td>
-  </tr>
+   <tr>
+      <th>Abbreviation</th>
+      <th>Camera</th>
+      <th>Curiosity</th>
+      <th>Opportunity</th>
+      <th>Spirit</th>
+   </tr>
 </table>

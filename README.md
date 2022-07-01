@@ -90,3 +90,33 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    * `string` data - Data of valid size to store in the QR code. int res - The resolution of the QR code.
 #### Purpose:
    Generates a QR code containing custom data
+<hr>
+
+### `/code`
+#### Usage:
+   `/code <language> <link> [<version>] [<stdin>]`
+#### Compulsory Parameters:
+   * `string` language - Language of the source code
+   * `boolean` link - Set this value to `True` if you intend to provide a link to the source code, or `False` if you will be writing the code directly.
+   * `int` version - Version of the language
+   * `string` stdin - Inputs required by the code (if any), separated by "||"
+#### Purpose:
+   Runs simple code online using the JDOODLE API. This command will fail if the output is too long, or if Hermeris exceeds the daily compilation limit.                           Consider donating to raise the limit. Click here for a list of supported languages
+<hr>
+
+### `/random`
+#### Usage: 
+   `/code <min> <max> <getint>`
+#### Compulsory Parameters:
+   * `float` min - The lower limit of the pseudorandom number
+   * `float` max - Upper limit of the pseudorandom number
+   * `boolean` getint - Set this value to `True` to get a random integer, otherwise enter `False`
+### Purpose:
+   Returns a pseudorandom number within a range
+<hr>
+
+### `/coin_flip`
+#### Usage:
+   `/coin_flip`
+#### Purpose:
+   Flips a virtual coin

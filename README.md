@@ -27,7 +27,8 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    `/botinfo`
 #### Purpose: 
    Shares a copy of this manual with the channel.
-   
+<hr>
+
 ### `/info`
 #### Usage:
    `/info`

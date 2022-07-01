@@ -1,11 +1,9 @@
 # Hermeris
 The official documentation for the Hermeris Bot
-<hr>
 
 ## Preface
 Thank you for selecting Hermeris as your bot. Hermeris is a “sapient Discord bot”, meaning that it provides special commands for educational and computational purposes, such as solving mathematical equations, providing stock market information, encryption and decryption, and other such functions. As mentioned before, Hermeris is powered by the powerful Wolfram|Alpha API besides the NASA Open API and countless other powerful APIs which provide the backend for most of its commands. The Wolfram|Alpha API provides most services that offer the perfect replacement for innumerable other possible commands.
 Hermeris uses the py-enigma library to provide a virtual Enigma Machine for text manipulation. Please refer to the manual entry on the /enigma command (page 13) for help with the syntax.
-<hr>
 
 ## Getting Started
 ***Refer to the following steps to add Hermeris to your server:***
@@ -22,7 +20,6 @@ Occasionally, Hermeris has to be turned off due to the above-mentioned reasons. 
 
 As Hermeris a free to use the bot and relies entirely on donations for its hosting, downtimes and performance issues may occur at times. While there is no perfect solution to this, donations always make Hermeris more powerful and robust.
 Furthermore, beta versions of Hermeris are highly unstable and should not be used on large servers. They are subjected to frequent shutdowns and connection issues. Users should only use a beta version of Hermeris for testing and experimental purposes or on smaller servers. A beta version of Hermeris may leave any large servers which hinder its performance. Hermeris does not interact through Private Channels. Only `/status`, `/manual`, and `/invite` can be used in Private Channels.
-<hr>
 
 ## Utility Commands
 ### `/help`

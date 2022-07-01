@@ -120,3 +120,13 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    `/coin_flip`
 #### Purpose:
    Flips a virtual coin
+<hr>
+
+### `/calc`
+#### Usage:
+   `/calc <expression> [<variables>]`
+#### Compulsory Parameters:
+   * `string` expression - The expression to evaluate Optional Parameters:
+   * `string` variables - The list of variables to use in evaluating the expression
+#### Purpose:
+   Evaluates a mathematical expression.

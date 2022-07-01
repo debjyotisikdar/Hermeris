@@ -30,13 +30,13 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    
 ### `/info`
 #### Usage:
-   /info
+   `/info`
 #### Purpose:
    Provides elementary information about the bot.
    
 ### `/ping`
 #### Usage:
-   /ping
+   `/ping`
 #### Purpose: 
    Returns the bot’s latency.
 

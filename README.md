@@ -230,32 +230,50 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 ### `/text_to_caesar`
 #### Usage: 
    `/text_to_caesar`
- Purpose: Encodes test using the Caesar Cipher (opens a modal to enter text) /caesar_to_text
-Usage: /caesar_to_text
-Purpose: Decodes Caesar Ciphertext to regular text (opens a modal to enter text)
-/text_to_vignere
-Usage: /text_to_vignere
-Purpose: Encodes test using the Vignere Cipher (opens a modal to enter text)
-/vignere_to_text
-Usage: /vignere_to_text
-Purpose: Decodes Vignere Ciphertext to regular text (opens a modal to enter text)
-/mono
-Usage: /mono <op> Compulsory Parameters:
-op - The new value for each character in the form of a mathematical expression. Purpose: Encodes text using a simple custom monoalphabetic cipher. Accepts text using a
-Modal. The following predefined variables can be used in the expression op:
-• int - The Unicode value of the character in base 10
-• len - The length of the input text
-• pos - The conventional position of the character in the string.
-/enigma
-Usage: /anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>
-                     13
- 
- Compulsory Parameters:
-string rotors - The rotors to use for the Enigma Machine
-string reflector - The reflector to use for the Enigma Machine
-string ring_settings - The ring settings for the Enigma Machine, separated by
-spaces
-string plugboard_settings - The plugboard connections for the Enigma Machine,
-separated by spaces
-string starting_positions - The starting position for the Enigma Machine
-Purpose: Manipulates text using a virtual Enigma Machine. Accepts text using a modal. For ease of use, the following is a sample command call:
+#### Purpose:
+   Encodes test using the Caesar Cipher (opens a modal to enter text)
+<hr>
+
+### `/caesar_to_text`
+#### Usage:
+`/caesar_to_text`
+#### Purpose:
+   Decodes Caesar Ciphertext to regular text (opens a modal to enter text)
+<hr>
+
+### `/text_to_vignere`
+#### Usage: 
+   `/text_to_vignere`
+#### Purpose: 
+   Encodes test using the Vignere Cipher (opens a modal to enter text)
+<hr>
+
+### `/vignere_to_text`
+#### Usage: 
+   `/vignere_to_text`
+#### Purpose:
+   Decodes Vignere Ciphertext to regular text (opens a modal to enter text)
+<hr>
+
+### `/mono`
+#### Usage: `/mono <op>`
+#### Compulsory Parameters:
+   * `string` op - The new value for each character in the form of a mathematical expression. 
+#### Purpose:
+   Encodes text using a simple custom monoalphabetic cipher. Accepts text using a Modal. The following predefined variables can be used in the expression op:
+   * `int` - The Unicode value of the character in base 10
+   * `len` - The length of the input text
+   * `pos` - The conventional position of the character in the string.
+<hr>
+
+### `/enigma`
+#### Usage:
+   `/anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>`
+#### Compulsory Parameters:
+   * `string` rotors - The rotors to use for the Enigma Machine
+   * `string` reflector - The reflector to use for the Enigma Machine
+   * `string` ring_settings - The ring settings for the Enigma Machine, separated by spaces
+   * `string` plugboard_settings - The plugboard connections for the Enigma Machine, separated by spaces
+   * `string` starting_positions - The starting position for the Enigma Machine
+#### Purpose:
+   Manipulates text using a virtual Enigma Machine. Accepts text using a modal. For ease of use, the following is a sample command call:

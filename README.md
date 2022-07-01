@@ -466,3 +466,13 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 #### Purpose:
    Provides a random cat picture.
 <hr>
+
+### `/cmd`
+#### Usage:
+   `/cmd <args>`
+#### Compulsory Parameters:
+   * `string` args - The command arguments
+#### Purpose:
+   Executes certain text-based commands.
+
+## Text-based Commands

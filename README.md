@@ -101,7 +101,7 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    * `int` version - Version of the language
    * `string` stdin - Inputs required by the code (if any), separated by "||"
 #### Purpose:
-   Runs simple code online using the JDOODLE API. This command will fail if the output is too long, or if Hermeris exceeds the daily compilation limit.                           Consider donating to raise the limit. Click here for a list of supported languages
+   Runs simple code online using the JDOODLE API. This command will fail if the output is too long, or if Hermeris exceeds the daily compilation limit.                        Consider donating to raise the limit. Click here for a list of supported languages
 <hr>
 
 ### `/random`
@@ -130,3 +130,29 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    * `string` variables - The list of variables to use in evaluating the expression
 #### Purpose:
    Evaluates a mathematical expression.
+<hr>
+
+*The following web-based commands can fail if the API does not return a valid response or if the entered parameters are irrelevant and/or invalid. 
+If such a problem persists, please contact AureateHalo.*
+
+### `/search`
+#### Usage:
+   `/search <query>`
+#### Compulsory Parameters:
+   * `string` query - The search query Purpose: Performs a DuckDuckGo Instant Search.
+<hr>
+
+### `/image_search`
+#### Usage:
+   `/image_search <query>`
+#### Compulsory Parameters:
+   * `string` query - The search query Purpose: Performs a Google Image Search.
+<hr>
+
+### `/wolfram`
+#### Usage:
+   `/search <query>`
+#### Compulsory Parameters:
+   * `string` query - The search query
+#### Purpose:
+Performs a Wolfram|Alpha computational search. The API makes presumptions based on the query and provides results accordingly (in a series of embeds).

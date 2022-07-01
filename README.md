@@ -34,12 +34,14 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    `/info`
 #### Purpose:
    Provides elementary information about the bot.
+<hr>
    
 ### `/ping`
 #### Usage:
    `/ping`
 #### Purpose: 
    Returns the bot’s latency.
+<hr>
 
 ### `/unicode_info`
 #### Usage:
@@ -48,7 +50,8 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
    * `string` char - A valid Unicode character. In the case of multiple characters, the first will be taken
 #### Purpose:
   Retrieves a Unicode character's name, codepoint, and hexadecimal value.
-  
+<hr>
+
 ### `/unicode_search`
 #### Usage: 
    `/unicode_search <name>`

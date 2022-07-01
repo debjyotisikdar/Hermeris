@@ -273,7 +273,7 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 
 ### `/enigma`
 #### Usage:
-   `/anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>`
+   `/enigma <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>`
 #### Compulsory Parameters:
    * `string` rotors - The rotors to use for the Enigma Machine
    * `string` reflector - The reflector to use for the Enigma Machine

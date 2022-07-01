@@ -391,3 +391,6 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
       <td>✔</td>
    </tr>
 </table>
+<hr>
+
+### METH

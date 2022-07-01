@@ -31,7 +31,7 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
 #### Usage:
    `/botinfo`
 #### Purpose: 
-   Provides a link to the Hermeris website, with this manual.
+   Provides a link to this GitHub repository.
 <hr>
 
 ### `/info`
@@ -474,6 +474,15 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `string` args - The command arguments
 #### Purpose:
    Executes certain text-based commands.
+<hr>
+
+### `/report`
+#### Usage:
+   `/report <issue>`
+#### Compulsory Parameters:
+   * `string` issue - The gist of the issue
+#### Purpose:
+   File a report about any issues with Hermeris. The detailed description of the issue is to be written in a modal that will be generated.
 <hr>
 
 ## Text-based Commands

@@ -27,11 +27,11 @@ As Hermeris a free to use the bot and relies entirely on donations for its hosti
 Furthermore, beta versions of Hermeris are highly unstable and should not be used on large servers. They are subjected to frequent shutdowns and connection issues. Users should only use a beta version of Hermeris for testing and experimental purposes or on smaller servers. A beta version of Hermeris may leave any large servers which hinder its performance. Hermeris does not interact through Private Channels. Only `/status`, `/manual`, and `/invite` can be used in Private Channels.
 
 ## Utility Commands
-### `/help`
+### `/manual`
 #### Usage:
    `/botinfo`
 #### Purpose: 
-   Shares a copy of this manual with the channel.
+   Provides a link to the Hermeris website, with this manual.
 <hr>
 
 ### `/info`
@@ -398,4 +398,71 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 </table>
 <hr>
 
-### METH
+*The majority of the following commands are from SerpApi and API Ninjas (mentioned in the footer of the embeds when executed).*
+
+### `/exercise`
+#### Usage:
+   `/exercise <muscle>`
+#### Compulsory Parameters:
+   * `string` muscle - The muscle to search for
+#### Purpose:
+   Provides workouts for a certain muscle
+<hr>
+   
+### `/facts`
+#### Usage:
+   `/facts <count>`
+#### Compulsory Parameters:
+   * `int` count - The number of random facts to return (1-30)
+#### Purpose:
+   Provides upto 30 random facts.
+<hr>
+
+### `/recipes`
+#### Usage:
+   `/recipes <query>`
+#### Compulsory Parameters:
+   * `string` query - The search query
+#### Purpose:
+   Provides recipes
+<hr>
+
+### `/ip_lookup`
+#### Usage:
+   `/ip_lookup <ip_address>`
+#### Compulsory Parameters:
+   * `string` ip_address - The IP address to locate
+#### Purpose:
+   Get the location of an IP address
+<hr>
+
+### `/invite`
+#### Usage:
+   `/invite`
+#### Purpose:
+   Get a Hermeris invite link.
+<hr>
+
+### `/status`
+#### Usage:
+   `/status`
+#### Purpose:
+   Provides the current status of the Hermeris bot (latency, number of servers, and version)
+<hr>
+
+### `/poll`
+#### Usage:
+   `/poll <title> <options>`
+#### Compulsory Parameters:
+   * `string` title - The title of the poll
+   * `string` options - The options for the poll (1-10)
+#### Purpose:
+   Creates a simple poll
+<hr>
+
+### `/cat`
+#### Usage:
+   `/cat`
+#### Purpose:
+   Provides a random cat picture.
+<hr>

@@ -327,4 +327,67 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
       <th>Opportunity</th>
       <th>Spirit</th>
    </tr>
+   <tr>
+      <td>FHAZ</td>
+      <td>Front Hazard Avoidance Camera</td>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+   </tr>
+   <tr>
+      <td>RHAZ</td>
+      <td>Rear Hazard Avoidance Camera</td>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+   </tr>
+   <tr>
+      <td>MAST</td>
+      <td>Mast Camera</td>
+      <td>✔</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>CHEMCAM</td>
+      <td>Chemistry and Camera Complex</td>
+      <td>✔</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>MAHLI</td>
+      <td>Mars Hand Lens Imager</td>
+      <td>✔</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>MARDI</td>
+      <td>Mars Descent Imager</td>
+      <td>✔</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>NAVCAM</td>
+      <td>Navigation Camera</td>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+   </tr>
+   <tr>
+      <td>PANCAM</td>
+      <td>Panoramic Camera</td>
+      <td></td>
+      <td>✔</td>
+      <td>✔</td>
+   </tr>
+   <tr>
+      <td>MINITES</td>
+      <td>Miniature Thermal Emission Spectrometer (Mini-TES)</td>
+      <td></td>
+      <td>✔</td>
+      <td>✔</td>
+   </tr>
 </table>

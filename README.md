@@ -1,7 +1,7 @@
 # Hermeris: The Manual
 The official documentation for Hermeris: *The Sapient Discord Bot* from AureateHalo. Visit https://aureatehalo.com for more information.
 
-<img src="" alt="Hermeris_Logo">
+<img src="https://aureatehalo.com/Hermeris-4.gif" alt="Hermeris_Logo">
 
 ## Note
 As of version 5.0.0-beta, Hermeris has an additional `/cmd` feature as an alternative to prefix commands for certain simpler features. A list of those text-based commands are at the end of this document.

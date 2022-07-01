@@ -319,7 +319,7 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 #### Purpose: 
    Get images captured by the Spirit, Opportunity, and Curiosity Mars Rovers. The table given below contains all the supported camera names for the Mars rover imagery commands:
    
-<table style="text-align: center">
+<table style="text-align: center;">
    <tr>
       <th>Abbreviation</th>
       <th>Camera</th>

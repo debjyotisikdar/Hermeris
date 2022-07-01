@@ -1,5 +1,5 @@
 # Hermeris: The Manual
-The official documentation for Hermeris: *The Sapient Discord Bot* from AureateHalo. Visit https://aureatehalo.com for more information.
+This is the official documentation for Hermeris: *The Sapient Discord Bot* from AureateHalo. Visit https://aureatehalo.com for more information. Hermeris is written using Disnake (a Discord.Py wrapper).
 
 <img src="https://aureatehalo.com/Hermeris-4.gif" alt="Hermeris_Logo">
 

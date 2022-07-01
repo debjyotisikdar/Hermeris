@@ -474,5 +474,6 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `string` args - The command arguments
 #### Purpose:
    Executes certain text-based commands.
+<hr>
 
 ## Text-based Commands

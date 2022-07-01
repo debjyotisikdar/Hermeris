@@ -156,3 +156,106 @@ If such a problem persists, please contact AureateHalo.*
    * `string` query - The search query
 #### Purpose:
 Performs a Wolfram|Alpha computational search. The API makes presumptions based on the query and provides results accordingly (in a series of embeds).
+<hr>
+
+### `/web_screenshot`
+#### Usage:
+   `/web_screenshot <url> <width> <height>`
+#### Compulsory Parameters:
+   * `string` url - The webpage whose screenshot is to be returned int width - The width of the screenshot in pixels
+   * `int` height - The height of the screenshot in pixels
+#### Purpose:
+   Returns a screenshot of any website (including explicit ones). This command is highly experimental and may not respond if the destination server takes too long to respond to the API.
+<hr>
+
+### `/youtube`
+#### Usage: `/youtube <query>`
+#### Compulsory Parameters:
+   * `string` query - The search query
+#### Purpose:
+   Search YouTube for videos, channels, live streams, etc.
+<hr>
+
+### `/grammar`
+#### Usage:
+   `/grammar <text>`
+#### Compulsory Parameters:
+   * `string` text - The text to review
+#### Purpose:
+   Provides simple elementary grammatical corrections and suggestions.
+<hr>
+
+### `/abbreviations`
+#### Usage:
+   `/abbreviations <acronym> <reverse_lookup> [<category>]`
+#### Compulsory Parameters:
+   * `string` acronym - The acronym to search with
+   * `boolean` reverse_lookup - Set this to True to use reverse lookup, or False otherwise
+<hr>
+
+#### Optional Parameters:
+   * `string` category - Specify a category and filter the results
+#### Purpose:
+   Searches for full forms of acronyms.
+<hr>
+
+### `/anagram`
+#### Usage:
+   `/anagrams <text>` 
+#### Compulsory Parameters:
+   * `string` text - The text to search with Purpose: Searches for possible anagrams of a text.
+<hr>
+
+### `/poetry`
+#### Usage:
+   `/poetry <phrase>`
+#### Compulsory Parameters:
+   * `string` phrase - The phrase to search for Purpose: Find excerpts from poems containing a phrase.
+<hr>
+
+### `/text_to_base64`
+#### Usage:
+   `/text_to_base64`
+#### Purpose:
+   Converts regular text to base64 (opens a modal to enter text)
+<hr>
+
+### `/base64_to_text`
+#### Usage:
+   `/base64_to_text`
+#### Purpose:
+   Converts base64 to text (opens a modal to enter text)
+<hr>
+
+### `/text_to_caesar`
+#### Usage: 
+   `/text_to_caesar`
+ Purpose: Encodes test using the Caesar Cipher (opens a modal to enter text) /caesar_to_text
+Usage: /caesar_to_text
+Purpose: Decodes Caesar Ciphertext to regular text (opens a modal to enter text)
+/text_to_vignere
+Usage: /text_to_vignere
+Purpose: Encodes test using the Vignere Cipher (opens a modal to enter text)
+/vignere_to_text
+Usage: /vignere_to_text
+Purpose: Decodes Vignere Ciphertext to regular text (opens a modal to enter text)
+/mono
+Usage: /mono <op> Compulsory Parameters:
+op - The new value for each character in the form of a mathematical expression. Purpose: Encodes text using a simple custom monoalphabetic cipher. Accepts text using a
+Modal. The following predefined variables can be used in the expression op:
+• int - The Unicode value of the character in base 10
+• len - The length of the input text
+• pos - The conventional position of the character in the string.
+/enigma
+Usage: /anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>
+                     13
+ 
+ Compulsory Parameters:
+string rotors - The rotors to use for the Enigma Machine
+string reflector - The reflector to use for the Enigma Machine
+string ring_settings - The ring settings for the Enigma Machine, separated by
+spaces
+string plugboard_settings - The plugboard connections for the Enigma Machine,
+separated by spaces
+string starting_positions - The starting position for the Enigma Machine
+Purpose: Manipulates text using a virtual Enigma Machine. Accepts text using a modal. For ease of use, the following is a sample command call:

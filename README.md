@@ -271,7 +271,6 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `pos` - The conventional position of the character in the string.
 <hr>
 
-<element id="enigma">
 ### `/enigma`
 #### Usage:
    `/anagrams <rotors> <reflector> <ring_settings> <plugboard_settings> <starting_position>`

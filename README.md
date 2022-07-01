@@ -61,4 +61,32 @@ Furthermore, beta versions of Hermeris are highly unstable and should not be use
 #### Purpose:
    Retrieves a Unicode character along with its codepoint and hexadecimal value. Searches by name.
    
+## Academic and "HermeriX" Commands
+### `/nato`
+#### Usage:
+   `/nato`
+#### Purpose: 
+   Returns a chart of the NATO Phonetic Alphabet.
+<hr>
 
+### `/semaphore`
+#### Usage: 
+   `/nato`
+#### Purpose: 
+   Returns a chart of the Semaphore Alphabet.
+<hr>
+
+### `/pigpen`
+#### Usage:
+   `/nato`
+#### Purpose:
+   Returns a chart of the Pigpen Alphabet.
+<hr>
+
+### `/qr`
+#### Usage: 
+   `/qr <data> <res>`
+#### Compulsory Parameters:
+   * `string` data - Data of valid size to store in the QR code. int res - The resolution of the QR code.
+#### Purpose:
+   Generates a QR code containing custom data

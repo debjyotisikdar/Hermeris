@@ -20,3 +20,39 @@ Occasionally, Hermeris has to be turned off due to the above-mentioned reasons. 
 
 As Hermeris a free to use the bot and relies entirely on donations for its hosting, downtimes and performance issues may occur at times. While there is no perfect solution to this, donations always make Hermeris more powerful and robust.
 Furthermore, beta versions of Hermeris are highly unstable and should not be used on large servers. They are subjected to frequent shutdowns and connection issues. Users should only use a beta version of Hermeris for testing and experimental purposes or on smaller servers. A beta version of Hermeris may leave any large servers which hinder its performance. Hermeris does not interact through Private Channels. Only `/status`, `/manual`, and `/invite` can be used in Private Channels.
+
+## Utility Commands
+### `/help`
+#### Usage:
+   `/botinfo`
+#### Purpose: 
+   Shares a copy of this manual with the channel.
+   
+### `/info`
+#### Usage:
+   /info
+#### Purpose:
+   Provides elementary information about the bot.
+   
+### `/ping`
+#### Usage:
+   /ping
+#### Purpose: 
+   Returns the bot’s latency.
+
+### `/unicode_info`
+#### Usage:
+   `/unicode_info <char>`
+#### Compulsory Parameters:
+   * `string` char - A valid Unicode character. In the case of multiple characters, the first will be taken
+#### Purpose:
+  Retrieves a Unicode character's name, codepoint, and hexadecimal value.
+  
+### `/unicode_search`
+#### Usage: 
+   `/unicode_search <name>`
+#### Compulsory Parameters:
+   * `string` name - A valid Unicode character name.
+
+#### Purpose:
+   Retrieves a Unicode character along with its codepoint and hexadecimal value. Searches by name.

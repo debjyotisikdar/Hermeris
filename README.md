@@ -477,3 +477,11 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
 <hr>
 
 ## Text-based Commands
+The following are the currently available text-based commands. The current number is limited, but more commands will be added wherever necessary.
+
+   *  `echo` - Echoes back text
+   *  `help`- Shows this same list
+   *  `timestamp` - Get the current UNIX Epoch.
+   *  `len <text>` - Returns the length of the arguments
+   *  `whereami` - Returns the location of the interaction
+   *  `rev <text>` - Reverses the arguments

@@ -277,6 +277,7 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `string` starting_positions - The starting position for the Enigma Machine
 #### Purpose:
    Manipulates text using a virtual Enigma Machine. Accepts text using a modal. For ease of use, the following is a sample command call:
+<hr>
 
 ### `/postalcode`
 #### Usage:
@@ -286,3 +287,7 @@ Performs a Wolfram|Alpha computational search. The API makes presumptions based 
    * `string` countrycode - The valid two-character country code for the postal code.
 #### Purpose:
    Returns locations of post offices worldwide using a valid postal code. This command will fail if there is an issue with the STANDS4 API, or if the postal code and/or the country code is/are invalid. The table given below contains all the supported country codes:
+
+```
+["AD","AR","AS", "AT", "AU", "AX", "AZ", "BD", "BE", "BG", "BM", "BR", "BY", "CA", "CH", "CL", "CO", "CR", "CZ", "DE", "DK", "DO", "DZ", "EE", "ES", "FI", "FM", "FO", "FR", "GB", "GF", "GG", "GL", "GP", "GT", "GU", "HR", "HU", "IE", "IM", "IN", "IS", "IT", "JE", "JP", "KR", "LI", "LK", "LT", "LU", "LV", "MC", "MD", "MH", "MK", "MP", "MQ", "MT", "MW", "MX", "MY", "NC", "NL", "NO", "NZ", "PH", "PK", "PL", "PM", "PR", "PT", "PW", "RE", "RO", "RS", "RU", "SE", "SG", "SI", "SJ", "SK", "SM", "TH", "TR", "UA", "US", "UY", "VA", "VI", "WF", "YT", "ZA"]
+```

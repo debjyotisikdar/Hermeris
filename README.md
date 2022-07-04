@@ -5,7 +5,7 @@ This is the official documentation for Hermeris: *The Sapient Discord Bot* from 
 <img src="https://aureatehalo.com/Hermeris-4.gif" alt="Hermeris_Logo">
 
 ## Note
-As of version 5.0.0-beta, Hermeris has an additional `/cmd` feature as an alternative to prefix commands for certain simpler features. A list of those text-based commands are at the end of this document.
+As of version 0.5.0-beta, Hermeris has an additional `/cmd` feature as an alternative to prefix commands for certain simpler features. A list of those text-based commands are at the end of this document.
 
 ## Preface
 Thank you for selecting Hermeris as your bot. Hermeris provides special commands for educational and computational purposes, such as solving mathematical equations, providing stock market information, encryption and decryption, and other such functions. As mentioned before, Hermeris is powered by the powerful Wolfram|Alpha API besides the NASA Open API and countless other powerful APIs which provide the backend for most of its commands. The Wolfram|Alpha API provides most services that offer the perfect replacement for innumerable other possible commands.

@@ -148,13 +148,6 @@ If such a problem persists, please contact AureateHalo.*
    * `string` query - The search query Purpose: Performs a DuckDuckGo Instant Search.
 <hr>
 
-### `/image_search`
-#### Usage:
-   `/image_search <query>`
-#### Compulsory Parameters:
-   * `string` query - The search query Purpose: Performs a Google Image Search.
-<hr>
-
 ### `/wolfram`
 #### Usage:
    `/search <query>`
@@ -162,24 +155,6 @@ If such a problem persists, please contact AureateHalo.*
    * `string` query - The search query
 #### Purpose:
 Performs a Wolfram|Alpha computational search. The API makes presumptions based on the query and provides results accordingly (in a series of embeds).
-<hr>
-
-### `/web_screenshot`
-#### Usage:
-   `/web_screenshot <url> <width> <height>`
-#### Compulsory Parameters:
-   * `string` url - The webpage whose screenshot is to be returned int width - The width of the screenshot in pixels
-   * `int` height - The height of the screenshot in pixels
-#### Purpose:
-   Returns a screenshot of any website (including explicit ones). This command is highly experimental and may not respond if the destination server takes too long to respond to the API.
-<hr>
-
-### `/youtube`
-#### Usage: `/youtube <query>`
-#### Compulsory Parameters:
-   * `string` query - The search query
-#### Purpose:
-   Search YouTube for videos, channels, live streams, etc.
 <hr>
 
 ### `/grammar`
